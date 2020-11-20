@@ -8,10 +8,10 @@
   <div class="colllapse navbar-collapse" id="mynav">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a href="#" class="nav-link">Dashboard</a>
+        <a routerLink="dashboard" class="nav-link">Dashboard</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">
+        <a routerLink="about" class="nav-link">
           About
         </a>
       </li>
@@ -34,9 +34,5 @@
 </div>
 
 <div>
-  <app-dashboard></app-dashboard>
-</div>
-
-<div>
-  <about></about>
+  <router-outlet></router-outlet>
 </div>
